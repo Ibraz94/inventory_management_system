@@ -1,0 +1,15 @@
+# Database Configuration
+DATABASE_URL=sqlite:///./inventory.db
+
+# For PostgreSQL (uncomment and modify as needed)
+# DATABASE_URL=postgresql://username:password@localhost:5432/inventory_db
+
+# For MySQL (uncomment and modify as needed)
+# DATABASE_URL=mysql+pymysql://username:password@localhost:3306/inventory_db
+
+# Server Configuration
+HOST=0.0.0.0
+PORT=8000
+
+# CORS Configuration (comma-separated list of allowed origins)
+# ALLOWED_ORIGINS=http://localhost:3000,http://127.0.0.1:3000 
